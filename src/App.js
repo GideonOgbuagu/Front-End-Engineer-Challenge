@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './App.css';
 import topImage1 from './assets/top-section-images/top-image-1.jpg';
 import topImage2 from './assets/top-section-images/top-image-2.jpg';
@@ -6,6 +6,13 @@ import topImage3 from './assets/top-section-images/top-image-3.jpg';
 import topImage4 from './assets/top-section-images/top-image-4.jpg';
 import topImage5 from './assets/top-section-images/top-image-5.jpg';
 import topImage6 from './assets/top-section-images/top-image-6.jpg';
+
+import sectnOneImage1 from './assets/bottom-section-images/sectionone-img-1.jpg';
+import sectnOneImage2 from './assets/bottom-section-images/sectionone-img-2.jpg';
+import sectnTwoImage from './assets/bottom-section-images/sectiontwo-img.jpg';
+import sectnThreeImage1 from './assets/bottom-section-images/sectionthree-img-1.jpg';
+import sectnThreeImage2 from './assets/bottom-section-images/sectionthree-img-2.jpg';
+
 
 
 
@@ -51,17 +58,51 @@ function App() {
 
       </header>
 
-      <section className="first-section">
-
+      <section className="section-one">
+        <div>
+          <img className="sectionone-img-1" src={sectnOneImage1} alt="Hiphugger"/>
+          <div className="one-img-descrip">
+            <p>Shop Hiphugger</p>
+            <p>heavy days</p>
+          </div>
+        </div>
+        <div>
+          <img className="sectionone-img-2" src={sectnOneImage2} alt="Cheeky"/>
+          <div className="one-img-descrip">
+            <p>Shop Cheeky</p>
+            <p>light days</p>
+          </div>
+        </div>
       </section>
-      <section className="second-section">
 
+      <section className="section-two">
+        <div>
+          <img className="sectiontwo-img-2" src={sectnTwoImage} alt="Hiphugger"/>
+          <div className="two-img-descrip">
+            <p>Shop Thong</p>
+            <p>lightest days</p>
+          </div>
+        </div>
       </section>
-      <section className="third-section">
 
+      <section className="section-three">
+        <div>
+          <img className="sectionone-img-1" src={sectnThreeImage1} alt="Hiphugger"/>
+          <div className="one-img-descrip">
+            <p>Shop Sport</p>
+            <p>medium days</p>
+          </div>
+        </div>
+        <div>
+          <img className="sectionone-img-2" src={sectnThreeImage2} alt="Cheeky"/>
+          <div className="one-img-descrip">
+            <p>Shop Boyshort</p>
+            <p>light days</p>
+          </div>
+        </div>
       </section>    
     </div>
-  );
+  )
 }
 
 export default App;
