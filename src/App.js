@@ -19,7 +19,9 @@ import sectnThreeImage2 from './assets/bottom-section-images/sectionthree-img-2.
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      
+
+      <header className="App-header"> {/* header starts here */}
         <div className="top-description">
           <p>HI - WAIST</p>
           <p>Heavy days. Holds up to 2 tampon's worth</p>
@@ -55,10 +57,10 @@ function App() {
           <div>add to cart</div>
           <p>build a cycle set and save up to 20%</p>
         </div>
+      </header> {/* header ends here */}
+      
 
-      </header>
-
-      <section className="section-one">
+      <section className="first-section"> {/* first section starts here */}
         <div>
           <img className="sectionone-img-1" src={sectnOneImage1} alt="Hiphugger"/>
           <div className="one-img-descrip">
@@ -73,9 +75,9 @@ function App() {
             <p>light days</p>
           </div>
         </div>
-      </section>
+      </section> {/* first section ends here */}
 
-      <section className="section-two">
+      <section className="second-section"> {/* second section starts here */}
         <div>
           <img className="sectiontwo-img-2" src={sectnTwoImage} alt="Hiphugger"/>
           <div className="two-img-descrip">
@@ -83,9 +85,9 @@ function App() {
             <p>lightest days</p>
           </div>
         </div>
-      </section>
+      </section> {/* second section ends here */}
 
-      <section className="section-three">
+      <section className="third-section"> {/* third section starts here */}
         <div>
           <img className="sectionone-img-1" src={sectnThreeImage1} alt="Hiphugger"/>
           <div className="one-img-descrip">
@@ -100,7 +102,7 @@ function App() {
             <p>light days</p>
           </div>
         </div>
-      </section>    
+      </section> {/* third section ends here */} 
     </div>
   )
 }
