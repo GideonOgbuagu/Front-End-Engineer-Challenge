@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="top-description">
-          <h5></h5>
+          <p>HI - WAIST</p>
           <p>Heavy days. Holds up to 2 tampon's worth</p>
           <p>The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cutting season.</p>
         </div>
@@ -27,8 +27,28 @@ function App() {
           <img className="top-image-6" src={topImage6} alt="HI WAIST (SIX)"/>
         </div>
         <div className="top-add-to-cart">
-          <div></div>
+          <p>$35.00</p>
+          <div className=""features-wrapper>
+            <div className="color-wrapper">
+              <span>color</span>
+              <span>black (checkmark)</span>
+              <span>beige</span>
+            </div>
+            <div className="quantity-wrapper">
+              <span>-</span>
+              <span> quantity (1) </span>
+              <span>+</span>
+            </div>
+            <div className="size-wrapper">
+              <span>size</span>
+              <span> (botton arrow here)</span>
+            </div>
+            <p>what's my size?</p>
+          </div>
+          <div>add to cart</div>
+          <p>build a cycle set and save up to 20%</p>
         </div>
+
       </header>
 
       <section className="first-section">
