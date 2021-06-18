@@ -88,11 +88,11 @@ div.features-wrapper ~ div + p{
   display: flex;
 }
 .color-wrapper span {
-  width: 33.3%;
+  width: 33.3rem;
   border-right: 1px solid black;
   color: black;
   text-align: left;
-  padding-left: 5%;
+  padding: 0 5%;
 }
 
 .color-wrapper span:nth-child(3) {
@@ -137,3 +137,58 @@ div.features-wrapper ~ div + p{
   padding-top: 3.6px;
 }
 
+/* Sections Container */
+
+ /* First & Second Section styles */
+.section-container {
+  width: 87%;
+  margin: 0 auto;
+}
+
+.first-section {
+  width: 100%;
+  display: flex;
+
+}
+.section1-card1 {
+  padding-top: 12%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 3%;
+   
+}
+.section1-card1, .section1-card2  {
+  width: 50%;
+}
+
+.sectionone-img-1 {
+  width: 100%;
+}
+
+/* .one-img-descrip {
+
+} */
+
+.section1-card2 {
+  padding-top: 4%;
+  padding-bottom: 10%;
+  padding-left: 8%;
+}
+
+.sectionone-img-2 {
+  width: 77%;
+}
+
+
+.section2-card {
+  display: flex;
+}
+.second-section {
+  width: 50%;
+  
+
+}
+
+/* .sectiontwo-img-2 {
+
+} */

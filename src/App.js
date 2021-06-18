@@ -58,50 +58,53 @@ function App() {
           </div>
         </header> {/* header ends here */}
         
+      <div className="section-container">
+          <section className="first-section"> {/* first section starts here */}
+            <div className="section1-card1">
+              <img className="sectionone-img-1" src={sectnOneImage1} alt="Hiphugger"/>
+              <div className="one-img-descrip">
+                <p>Shop Hiphugger</p>
+                <p>heavy days</p>
+              </div>
+            </div>
+            <div className="section1-card2">
+              <img className="sectionone-img-2" src={sectnOneImage2} alt="Cheeky"/>
+              <div className="one-img-descrip">
+                <p>Shop Cheeky</p>
+                <p>light days</p>
+              </div>
+            </div>
+          </section> {/* first section ends here */}
 
-        <section className="first-section"> {/* first section starts here */}
-          <div>
-            <img className="sectionone-img-1" src={sectnOneImage1} alt="Hiphugger"/>
-            <div className="one-img-descrip">
-              <p>Shop Hiphugger</p>
-              <p>heavy days</p>
+          <section className="second-section"> {/* second section starts here */}
+            <div >
+              <img className="sectiontwo-img-2" src={sectnTwoImage} alt="Hiphugger"/>
+              <div className="two-img-descrip">
+                <p>Shop Thong</p>
+                <p>lightest days</p>
+              </div>
             </div>
-          </div>
-          <div>
-            <img className="sectionone-img-2" src={sectnOneImage2} alt="Cheeky"/>
-            <div className="one-img-descrip">
-              <p>Shop Cheeky</p>
-              <p>light days</p>
-            </div>
-          </div>
-        </section> {/* first section ends here */}
+          </section> {/* second section ends here */}
 
-        <section className="second-section"> {/* second section starts here */}
-          <div>
-            <img className="sectiontwo-img-2" src={sectnTwoImage} alt="Hiphugger"/>
-            <div className="two-img-descrip">
-              <p>Shop Thong</p>
-              <p>lightest days</p>
+          <section className="first-section"> {/* third section starts here */}
+            <div className="section1-card1">
+              <img className="sectionone-img-1" src={sectnThreeImage1} alt="Hiphugger"/>
+              <div className="one-img-descrip">
+                <p>Shop Sport</p>
+                <p>medium days</p>
+              </div>
             </div>
-          </div>
-        </section> {/* second section ends here */}
+            <div className="section1-card2">
+              <img className="sectionone-img-2" src={sectnThreeImage2} alt="Cheeky"/>
+              <div className="one-img-descrip">
+                <p>Shop Boyshort</p>
+                <p>light days</p>
+              </div>
+            </div>
+          </section> {/* third section ends here */} 
 
-        <section className="third-section"> {/* third section starts here */}
-          <div>
-            <img className="sectionone-img-1" src={sectnThreeImage1} alt="Hiphugger"/>
-            <div className="one-img-descrip">
-              <p>Shop Sport</p>
-              <p>medium days</p>
-            </div>
-          </div>
-          <div>
-            <img className="sectionone-img-2" src={sectnThreeImage2} alt="Cheeky"/>
-            <div className="one-img-descrip">
-              <p>Shop Boyshort</p>
-              <p>light days</p>
-            </div>
-          </div>
-        </section> {/* third section ends here */} 
+        </div>
+        
       </div>
     </div>
   )
