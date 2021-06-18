@@ -27,11 +27,11 @@ function App() {
         </div>
         <div className="top-images">
           <img className="top-image-1" src={topImage1} alt="HI WAIST (ONE)"/>
-          <img className="top-image-2" src={topImage2} alt="HI WAIST (TWO)"/>
+          {/* <img className="top-image-2" src={topImage2} alt="HI WAIST (TWO)"/>
           <img className="top-image-3" src={topImage3} alt="HI WAIST (THREE)"/>
           <img className="top-image-4" src={topImage4} alt="HI WAIST (FOUR)"/>
           <img className="top-image-5" src={topImage5} alt="HI WAIST (FIVE)"/>
-          <img className="top-image-6" src={topImage6} alt="HI WAIST (SIX)"/>
+          <img className="top-image-6" src={topImage6} alt="HI WAIST (SIX)"/> */}
         </div>
         <div className="top-add-to-cart">
           <p>$35.00</p>
