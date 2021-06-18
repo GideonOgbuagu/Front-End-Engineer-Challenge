@@ -3,5 +3,23 @@
   margin: 0;
   box-sizing: border-box;
   max-width: 100%;
+  /* border: 1px solid red; */
+}
+/* #F7F7F7 */
+
+.container {
+  width: 86%;
+  margin: 0 auto;
 }
 
+.App-header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  /* align-content: center; */
+
+}
+
+.top-description, .add-to-cart {
+  width: 30%;
+}
