@@ -62,14 +62,14 @@ function App() {
           <section className="first-section"> {/* first section starts here */}
             <div className="section1-card1">
               <img className="sectionone-img-1" src={sectnOneImage1} alt="Hiphugger"/>
-              <div className="one-img-descrip">
+              <div className="card-img-descrip">
                 <p>Shop Hiphugger</p>
                 <p>heavy days</p>
               </div>
             </div>
             <div className="section1-card2">
               <img className="sectionone-img-2" src={sectnOneImage2} alt="Cheeky"/>
-              <div className="one-img-descrip">
+              <div className="card-img-descrip">
                 <p>Shop Cheeky</p>
                 <p>light days</p>
               </div>
@@ -77,9 +77,9 @@ function App() {
           </section> {/* first section ends here */}
 
           <section className="second-section"> {/* second section starts here */}
-            <div >
+            <div className="section2-card">
               <img className="sectiontwo-img-2" src={sectnTwoImage} alt="Hiphugger"/>
-              <div className="two-img-descrip">
+              <div className="card-img-descrip">
                 <p>Shop Thong</p>
                 <p>lightest days</p>
               </div>
@@ -89,14 +89,14 @@ function App() {
           <section className="first-section"> {/* third section starts here */}
             <div className="section1-card1">
               <img className="sectionone-img-1" src={sectnThreeImage1} alt="Hiphugger"/>
-              <div className="one-img-descrip">
+              <div className="card-img-descrip">
                 <p>Shop Sport</p>
                 <p>medium days</p>
               </div>
             </div>
             <div className="section1-card2">
               <img className="sectionone-img-2" src={sectnThreeImage2} alt="Cheeky"/>
-              <div className="one-img-descrip">
+              <div className="card-img-descrip">
                 <p>Shop Boyshort</p>
                 <p>light days</p>
               </div>

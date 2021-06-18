@@ -7,7 +7,7 @@
 }
 
 p, span {
-  font-size: 98%;
+  font-size: 96%;
 }
 .container {
   width: 88%;
@@ -16,7 +16,6 @@ p, span {
 
 .App-header {
   display: flex;
-  /* justify-content: center; */
   justify-content: space-around;
   background-color: #F7F7F7;
   letter-spacing: 0.06rem;
@@ -27,7 +26,14 @@ p, span {
 }
 .top-description, .add-to-cart-wrapper {
   margin-top: 195px;
-  
+}
+
+.top-description p:first-child, 
+.add-to-cart-wrapper p:first-child{
+  font-size: 85%;
+  letter-spacing: 0.1rem;
+  /* font-weight: bold; */
+  /* color: rgb(65, 65, 65); */
 }
 
 /* TOP DESCRIPTION STYLES */
@@ -92,13 +98,23 @@ div.features-wrapper ~ div + p{
   border-right: 1px solid black;
   color: black;
   text-align: left;
-  padding: 0 5%;
+  padding: 0 6%;
 }
 
 .color-wrapper span:nth-child(3) {
   border-right: 1px solid white;
   color: black;
+  background-color: #F2D9A6;
 }
+
+.color-wrapper span:nth-child(2){
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+
 
 /* QUANTITY STYLES */
 
@@ -148,9 +164,11 @@ div.features-wrapper ~ div + p{
 .first-section {
   width: 100%;
   display: flex;
+  margin-top: 3%;
 
 }
 .section1-card1 {
+
   padding-top: 12%;
   padding-bottom: 10%;
   padding-left: 5%;
@@ -165,9 +183,19 @@ div.features-wrapper ~ div + p{
   width: 100%;
 }
 
-/* .one-img-descrip {
+.card-img-descrip {
+  margin-top: 25px;
+  letter-spacing: 0.06rem;
+  line-height: 1.4rem;
+}
 
-} */
+.card-img-descrip p:first-child{
+  text-decoration: underline;
+}
+
+.card-img-descrip p:nth-child(2){
+  font-size: 60%;
+}
 
 .section1-card2 {
   padding-top: 4%;
@@ -178,16 +206,16 @@ div.features-wrapper ~ div + p{
 .sectionone-img-2 {
   width: 77%;
 }
-
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .section2-card {
-  display: flex;
+  width: 43%;
 }
-.second-section {
-  width: 50%;
-  
 
-}
 
 /* .sectiontwo-img-2 {
 
