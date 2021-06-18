@@ -3,23 +3,137 @@
   margin: 0;
   box-sizing: border-box;
   max-width: 100%;
-  /* border: 1px solid red; */
+  /* border: 1px solid grey; */
 }
-/* #F7F7F7 */
 
+p, span {
+  font-size: 98%;
+}
 .container {
-  width: 86%;
+  width: 88%;
   margin: 0 auto;
 }
 
 .App-header {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   justify-content: space-around;
-  /* align-content: center; */
+  background-color: #F7F7F7;
+  letter-spacing: 0.06rem;
 
 }
+.top-images img {
+  z-index: -100;
+}
+.top-description, .add-to-cart-wrapper {
+  margin-top: 195px;
+  
+}
 
-.top-description, .add-to-cart {
+/* TOP DESCRIPTION STYLES */
+
+.top-description {
   width: 30%;
+  max-height: 100vh;
 }
+
+.top-description p {
+  margin-bottom: 20px;
+  line-height: 1.6rem;
+  
+}
+/* ADD TO CART STYLES */
+
+.add-to-cart-wrapper {
+  width: 30%;
+  
+}
+
+div.add-to-cart-wrapper > * {
+  margin-bottom: 20px;
+  
+}
+
+/* FEATURES STYLES */
+
+.features-wrapper>div:nth-child(1),
+.features-wrapper>div:nth-child(2),
+.features-wrapper>div:nth-child(3) {
+  border: 1px solid black;
+  padding: 0 0%;
+  margin-bottom: 18px; 
+  height: 30px;
+}
+
+/* Add to Cart Button */
+
+div.features-wrapper ~ div {
+  border: 1px solid black;
+  text-align: center;
+  padding: 1.5% 3%; 
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+
+div.features-wrapper ~ div + p{
+  text-align: justify;
+  text-decoration: underline;
+}
+
+/* COLOR STYLES  */
+
+.color-wrapper {
+  width: 100%;
+  display: flex;
+}
+.color-wrapper span {
+  width: 33.3%;
+  border-right: 1px solid black;
+  color: black;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.color-wrapper span:nth-child(3) {
+  border-right: 1px solid white;
+  color: black;
+}
+
+/* QUANTITY STYLES */
+
+.quantity-wrapper {
+  width: 100%;
+  display: flex;
+}
+.quantity-wrapper span {
+  width: 33.3%;
+  border-right: 1px solid black;
+  color: black;
+  text-align: center;
+}
+.quantity-wrapper span:nth-child(odd) {
+  width: 10%;
+}
+.quantity-wrapper span:nth-child(2) {
+  width: 80%;
+}
+.quantity-wrapper span:nth-child(3) {
+  border-right: 1px solid white;
+  color: black;
+}
+/* SIZE STYLES */
+
+.size-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.size-wrapper span {
+  padding: 0 5%;
+}
+
+.App-header .add-to-cart-wrapper .features-wrapper span {
+  padding-top: 3.6px;
+}
+
