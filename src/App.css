@@ -6,30 +6,36 @@
   /* border: 1px solid grey; */
 }
 
-p, span {
+p,
+span {
   font-size: 96%;
 }
 .container {
-  width: 88%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .App-header {
+  background-color: #f7f7f7;
+  letter-spacing: 0.06rem;
+}
+
+.header-wrapper {
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  background-color: #F7F7F7;
-  letter-spacing: 0.06rem;
-
 }
+
 .top-images img {
   z-index: -100;
 }
-.top-description, .add-to-cart-wrapper {
+.top-description,
+.add-to-cart-wrapper {
   margin-top: 195px;
 }
 
-.top-description p:first-child, 
-.add-to-cart-wrapper p:first-child{
+.top-description p:first-child,
+.add-to-cart-wrapper p:first-child {
   font-size: 85%;
   letter-spacing: 0.1rem;
   /* font-weight: bold; */
@@ -46,28 +52,25 @@ p, span {
 .top-description p {
   margin-bottom: 20px;
   line-height: 1.6rem;
-  
 }
 /* ADD TO CART STYLES */
 
 .add-to-cart-wrapper {
   width: 30%;
-  
 }
 
 div.add-to-cart-wrapper > * {
   margin-bottom: 20px;
-  
 }
 
 /* FEATURES STYLES */
 
-.features-wrapper>div:nth-child(1),
-.features-wrapper>div:nth-child(2),
-.features-wrapper>div:nth-child(3) {
+.features-wrapper > div:nth-child(1),
+.features-wrapper > div:nth-child(2),
+.features-wrapper > div:nth-child(3) {
   border: 1px solid black;
   padding: 0 0%;
-  margin-bottom: 18px; 
+  margin-bottom: 18px;
   height: 30px;
 }
 
@@ -76,13 +79,13 @@ div.add-to-cart-wrapper > * {
 div.features-wrapper ~ div {
   border: 1px solid black;
   text-align: center;
-  padding: 1.5% 3%; 
+  padding: 1.5% 3%;
   color: white;
   font-weight: bold;
   background-color: black;
 }
 
-div.features-wrapper ~ div + p{
+div.features-wrapper ~ div + p {
   text-align: justify;
   text-decoration: underline;
 }
@@ -104,17 +107,25 @@ div.features-wrapper ~ div + p{
 .color-wrapper span:nth-child(3) {
   border-right: 1px solid white;
   color: black;
-  background-color: #F2D9A6;
+  background-color: #f2d9a6;
 }
 
-.color-wrapper span:nth-child(2){
+.color-wrapper span:nth-child(2) {
   background-color: black;
   color: white;
   text-align: center;
   font-weight: bold;
 }
 
-
+.check:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\2713";
+  display: inline-block;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
+/* f00c */
 
 /* QUANTITY STYLES */
 
@@ -155,7 +166,7 @@ div.features-wrapper ~ div + p{
 
 /* Sections Container */
 
- /* First & Second Section styles */
+/* First & Second Section styles */
 .section-container {
   width: 87%;
   margin: 0 auto;
@@ -165,17 +176,15 @@ div.features-wrapper ~ div + p{
   width: 100%;
   display: flex;
   margin-top: 3%;
-
 }
 .section1-card1 {
-
   padding-top: 12%;
   padding-bottom: 10%;
   padding-left: 5%;
   padding-right: 3%;
-   
 }
-.section1-card1, .section1-card2  {
+.section1-card1,
+.section1-card2 {
   width: 50%;
 }
 
@@ -189,11 +198,11 @@ div.features-wrapper ~ div + p{
   line-height: 1.4rem;
 }
 
-.card-img-descrip p:first-child{
+.card-img-descrip p:first-child {
   text-decoration: underline;
 }
 
-.card-img-descrip p:nth-child(2){
+.card-img-descrip p:nth-child(2) {
   font-size: 60%;
 }
 
@@ -215,7 +224,6 @@ div.features-wrapper ~ div + p{
 .section2-card {
   width: 43%;
 }
-
 
 /* .sectiontwo-img-2 {
 
