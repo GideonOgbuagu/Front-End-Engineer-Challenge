@@ -25,11 +25,14 @@ function App() {
           black: true,
           beige: false
   })
-  const [increment, setIncrement] = useState()
-  const [decrement, setDecrement] = useState()
+  const [quantity, setQuantity] = useState(1)
   
-  const toggle = (e) => {
-    console.log(e, "first!!")
+  const increment = () => {
+    setQuantity(quantity + 1)
+  }
+
+  const decrement = () => {
+    quantity > 1 && setQuantity(quantity - 1)
   }
   
   return (
@@ -56,6 +59,7 @@ function App() {
               <p>$35.00</p>
               <div className="features-wrapper">
                 <div className="color-wrapper">
+                  {/* Color toggle functionality */}
                   <span>color</span>
                   <span onClick={(e) => {
                     setBlack(true)
@@ -67,10 +71,11 @@ function App() {
                     setBlack(false)
                   }} className={beige ? "check": null}>beige</span>
                 </div>
+                {/* quantity increment and decrement functionality */}
                 <div className="quantity-wrapper">
-                  <span>-</span>
-                  <span> quantity (1) </span>
-                  <span>+</span>
+                  <span onClick={decrement}>-</span>
+                  <span> quantity ({quantity}) </span>
+                  <span onClick={increment}>+</span>
                 </div>
                 <div className="size-wrapper">
                   <span>size</span>
