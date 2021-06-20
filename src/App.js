@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import Dropdown from "../src/components/Dropdown"
 import "./App.css";
 import topImage1 from "./assets/top-section-images/top-image-1.jpg";
 // import topImage2 from "./assets/top-section-images/top-image-2.jpg";
@@ -77,10 +77,8 @@ function App() {
                   <span> quantity ({quantity}) </span>
                   <span onClick={increment}>+</span>
                 </div>
-                <div className="size-wrapper">
-                  <span>size</span>
-                  <span> - </span>
-                </div>
+
+                <Dropdown />
                 <p>what's my size?</p>
               </div>
               <div>add to cart</div>

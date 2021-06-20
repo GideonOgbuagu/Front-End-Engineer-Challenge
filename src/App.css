@@ -68,8 +68,8 @@ div.add-to-cart-wrapper > * {
 .features-wrapper > div:nth-child(1),
 .features-wrapper > div:nth-child(2),
 .features-wrapper > div:nth-child(3) {
-  border: 1px solid black;
-  padding: 0 0%;
+border: 1px solid black;
+padding: 0 0%;
   margin-bottom: 18px;
   height: 30px;
 }
@@ -80,9 +80,13 @@ div.features-wrapper ~ div {
   border: 1px solid black;
   text-align: center;
   padding: 1.5% 3%;
-  color: white;
   font-weight: bold;
+  color: white;
   background-color: black;
+  /* revert back later */
+  color: black;
+  background-color: white;
+  display: none;
 }
 
 div.features-wrapper ~ div + p {
@@ -151,7 +155,7 @@ div.features-wrapper ~ div + p {
 }
 /* SIZE STYLES */
 
-.size-wrapper {
+/* .size-wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -162,7 +166,7 @@ div.features-wrapper ~ div + p {
 
 .App-header .add-to-cart-wrapper .features-wrapper span {
   padding-top: 3.6px;
-}
+} */
 
 /* Sections Container */
 
@@ -225,6 +229,14 @@ div.features-wrapper ~ div + p {
   width: 43%;
 }
 
+.drop-symbol {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  display: inline-block;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
 /* .sectiontwo-img-2 {
 
 } */
