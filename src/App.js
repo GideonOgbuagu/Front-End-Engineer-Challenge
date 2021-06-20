@@ -18,6 +18,7 @@ import sectnThreeImage2 from "./assets/bottom-section-images/sectionthree-img-2.
 
 
 function App() {
+  const [selected, setSelected] = useState("")
   const [black, setBlack] = useState(true)
   const [beige, setBeige] = useState(false)
   const [color, setColor] 
@@ -78,7 +79,7 @@ function App() {
                   <span onClick={increment}>+</span>
                 </div>
 
-                <Dropdown />
+                <Dropdown selected={selected} setSelected={setSelected}/>
                 <p>what's my size?</p>
               </div>
               <div>add to cart</div>

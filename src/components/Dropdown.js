@@ -1,37 +1,29 @@
 import React, { useState } from "react";
 import "./Dropdown.css";
 
-function Dropdown() {
-const [show, setShow] = useState(false)
-
+function Dropdown({selected, setSelected}) {
+const [show, setShow] = useState(false);
+const sizes = ["XS", "S", "M", "L", "XL", "XXL"];
 
   return (
     <div className="dropdown">
       <div className="dropdown-btn" onClick={e => setShow(!show)}>
         <div className="size">
-          <span>size</span>
+          <span>size:</span>
+            <p className="selected" >{selected}</p>
           <span className="drop-symbol">-</span>
         </div>
       </div>
-      {show && (<div className="dropdown-content">
-        <div className="size-item">
-          <p>XS</p>
+      {show && (
+      <div className="dropdown-content" >
+       {sizes.map(size => (
+          <div className="size-item" onClick={(e) => 
+          { setSelected(size)
+            setShow(false)
+          }}>
+          <p>{size}</p>
         </div>
-        <div className="size-item">
-          <p>S</p>
-        </div>
-        <div className="size-item">
-          <p>M</p>
-        </div>
-        <div className="size-item">
-          <p>L</p>
-        </div>
-        <div className="size-item">
-          <p>XL</p>
-        </div>
-        <div className="size-item">
-          <p>XXL</p>
-        </div>
+       ))}
       </div>)}
     </div>
   );
