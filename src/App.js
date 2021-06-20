@@ -80,11 +80,11 @@ function App() {
                 </div>
 
                 <Dropdown selected={selected} setSelected={setSelected}/>
-                <p>what's my size?</p>
+                <p className="size-question">what's my size?</p>
               </div>
               <div>add to cart</div>
               <p>build a cycle set and save up to 20%</p>
-              <i class="fas fa-user"></i> 
+              {/* <i class="fas fa-user"></i>  */}
             </div>
           </div>
         </header>{" "}

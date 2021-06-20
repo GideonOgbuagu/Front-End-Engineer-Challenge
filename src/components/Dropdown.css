@@ -66,6 +66,8 @@
 }
 
 .selected {
-  margin-top: 5px;
+  margin-top: 7px;
   font-size: 85%;
+  position: relative;
+  left: -4.2%;
 }

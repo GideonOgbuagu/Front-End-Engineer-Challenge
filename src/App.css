@@ -84,14 +84,13 @@ div.features-wrapper ~ div {
   color: white;
   background-color: black;
   /* revert back later */
-  color: black;
-  background-color: white;
-  display: none;
+ 
 }
 
 div.features-wrapper ~ div + p {
   text-align: justify;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 /* COLOR STYLES  */
@@ -108,18 +107,22 @@ div.features-wrapper ~ div + p {
   padding: 0 6%;
 }
 
-.color-wrapper span:nth-child(3) {
-  border-right: 1px solid white;
-  color: black;
-  background-color: #f2d9a6;
-}
-
 .color-wrapper span:nth-child(2) {
   background-color: black;
   color: white;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
 }
+
+.color-wrapper span:nth-child(3) {
+  border-right: 1px solid white;
+  color: black;
+  background-color: #f2d9a6;
+  cursor: pointer;
+}
+
+
 
 .check:after {
   font-family: "Font Awesome 5 Free";
@@ -145,6 +148,7 @@ div.features-wrapper ~ div + p {
 }
 .quantity-wrapper span:nth-child(odd) {
   width: 10%;
+  cursor: pointer;
 }
 .quantity-wrapper span:nth-child(2) {
   width: 80%;
@@ -153,20 +157,14 @@ div.features-wrapper ~ div + p {
   border-right: 1px solid white;
   color: black;
 }
+
+.size-question {
+  font-size: 40%;
+  text-decoration: underline;
+  cursor: pointer;
+}
 /* SIZE STYLES */
 
-/* .size-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.size-wrapper span {
-  padding: 0 5%;
-}
-
-.App-header .add-to-cart-wrapper .features-wrapper span {
-  padding-top: 3.6px;
-} */
 
 /* Sections Container */
 
