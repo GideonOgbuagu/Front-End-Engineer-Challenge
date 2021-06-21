@@ -1,0 +1,23 @@
+/* QUANTITY STYLES */
+
+.quantity-wrapper {
+  width: 100%;
+  display: flex;
+}
+.quantity-wrapper span {
+  width: 33.3%;
+  border-right: 1px solid black;
+  color: black;
+  text-align: center;
+}
+.quantity-wrapper span:nth-child(odd) {
+  width: 10%;
+  cursor: pointer;
+}
+.quantity-wrapper span:nth-child(2) {
+  width: 80%;
+}
+.quantity-wrapper span:nth-child(3) {
+  border-right: 1px solid white;
+  color: black;
+}

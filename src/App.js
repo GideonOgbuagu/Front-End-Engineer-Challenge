@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Colors from "./components/Colors";
+import Quantity from "./components/Quantity";
 import Dropdown from "../src/components/Dropdown";
 import Modal from "./components/Modal"
 import "./App.css";
@@ -19,16 +20,7 @@ import sectnThreeImage2 from "./assets/bottom-section-images/sectionthree-img-2.
 function App() {
   const [selected, setSelected] = useState("");
   const [showModal, setShowModal] = useState(false)
-  const [quantity, setQuantity] = useState(1);
-
-
-  const increment = () => {
-    setQuantity(quantity + 1);
-  };
-
-  const decrement = () => {
-    quantity > 1 && setQuantity(quantity - 1);
-  };
+  
 
   return (
     <div>
@@ -55,13 +47,7 @@ function App() {
                 <p>$35.00</p>
                 <div className="features-wrapper">
                   <Colors />
-                  {/* quantity increment and decrement functionality */}
-                  <div className="quantity-wrapper">
-                    <span onClick={decrement}>-</span>
-                    <span> quantity ({quantity}) </span>
-                    <span onClick={increment}>+</span>
-                  </div>
-
+                  <Quantity />
                   <Dropdown selected={selected} setSelected={setSelected} />
                   <p className="size-question">what's my size?</p>
                 </div>
