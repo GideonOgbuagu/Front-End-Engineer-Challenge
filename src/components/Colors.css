@@ -10,6 +10,7 @@
   color: black;
   text-align: left;
   padding: 0 6%;
+
 }
 
 .color-wrapper span:nth-child(2) {
@@ -27,8 +28,7 @@
   cursor: pointer;
 }
 
-
-
+/* Check mark styling here */
 .check:after {
   font-family: "Font Awesome 5 Free";
   content: "\2713";
@@ -36,4 +36,5 @@
   padding-left: 3px;
   vertical-align: middle;
   font-weight: 900;
+  overflow:unset;
 }

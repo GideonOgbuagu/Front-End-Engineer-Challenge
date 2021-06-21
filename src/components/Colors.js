@@ -8,7 +8,7 @@ function Colors(props) {
 
   return (
     <div className="color-wrapper">
-      {/* Color toggle functionality */}
+      {/* Color toggling functionality */}
       <span>color</span>
       <span
         onClick={(e) => {

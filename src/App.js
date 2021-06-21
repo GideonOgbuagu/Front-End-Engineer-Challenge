@@ -4,6 +4,8 @@ import Quantity from "./components/Quantity";
 import Dropdown from "../src/components/Dropdown";
 import Modal from "./components/Modal"
 import "./App.css";
+
+// TOP IMAGES SETS
 import topImage1 from "./assets/top-section-images/top-image-1.jpg";
 // import topImage2 from "./assets/top-section-images/top-image-2.jpg";
 // import topImage3 from "./assets/top-section-images/top-image-3.jpg";
@@ -11,11 +13,15 @@ import topImage1 from "./assets/top-section-images/top-image-1.jpg";
 // import topImage5 from "./assets/top-section-images/top-image-5.jpg";
 // import topImage6 from "./assets/top-section-images/top-image-6.jpg";
 
+//BOTTOM IMAGES 
 import sectnOneImage1 from "./assets/bottom-section-images/sectionone-img-1.jpg";
 import sectnOneImage2 from "./assets/bottom-section-images/sectionone-img-2.jpg";
 import sectnTwoImage from "./assets/bottom-section-images/sectiontwo-img.jpg";
 import sectnThreeImage1 from "./assets/bottom-section-images/sectionthree-img-1.jpg";
 import sectnThreeImage2 from "./assets/bottom-section-images/sectionthree-img-2.jpg";
+
+
+
 
 function App() {
   const [selected, setSelected] = useState("");
@@ -24,7 +30,7 @@ function App() {
 
   return (
     <div>
-      <Modal />
+      <Modal showModal={showModal} setShowModal={setShowModal}/>
       <div className="App">
           <header className="App-header">
             {" "}
@@ -35,7 +41,7 @@ function App() {
                 <p>Heavy days. Holds up to 2 tampon's worth</p>
                 <p>The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cutting season.</p>
               </div>
-              <div className="top-images">
+              <div className="top-images" onClick={e => setShowModal(true)}>
                 <img className="top-image-1" src={topImage1} alt="HI WAIST (ONE)" />
                 {/* <img className="top-image-2" src={topImage2} alt="HI WAIST (TWO)"/>
             <img className="top-image-3" src={topImage3} alt="HI WAIST (THREE)"/>

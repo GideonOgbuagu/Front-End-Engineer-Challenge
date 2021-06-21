@@ -99,8 +99,6 @@ div.features-wrapper ~ div + p {
 
 /* f00c */
 
-
-
 .size-question {
   font-size: 40%;
   text-decoration: underline;
@@ -145,6 +143,8 @@ div.features-wrapper ~ div + p {
 
 .card-img-descrip p:first-child {
   text-decoration: underline;
+  display: inline;
+  cursor: pointer;
 }
 
 .card-img-descrip p:nth-child(2) {
