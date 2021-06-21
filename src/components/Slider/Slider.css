@@ -1,16 +1,25 @@
 .slider-wrapper {
   width: 100%;
+  /* display: flex; */
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
+  /* top: 40vh; */
 
 }
 
 ul {
+  width: 40%;
   display: flex;
-  position: relative;
+  /* flex-wrap: nowrap; */
+  /* position: relative; */
+  width: 40vw;
   margin: 0px;
   padding: 0px;
   list-style: none;
+  /* transform: translate3d(-57vw, 0, 0); */
+  transform: translate3d(0, 0, 0);
+  background-position: center;
+  background-size: cover;
 }
 
 li {

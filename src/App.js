@@ -3,9 +3,9 @@ import Colors from "./components/Colors";
 import Quantity from "./components/Quantity";
 import Dropdown from "../src/components/Dropdown";
 import Modal from "./components/Modal";
-import Slider from "./components/Slider/Slider";
+// import Slider from "./components/Slider/Slider";
 
-import slides from "./components/Slider/data.js"
+// import slides from "./components/Slider/data.js"
 
 import "./App.css";
 
@@ -43,7 +43,7 @@ function App() {
                 <p>The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cutting season.</p>
               </div>
               <div className="top-images" onClick={(e) => setShowModal(true)}>
-                <Slider slides={slides}/>
+                {/* <Slider slides={slides}/> */}
                 <img className="top-image-1" src={topImage1} alt="HI WAIST (ONE)" />
                 {/* <img className="top-image-2" src={topImage2} alt="HI WAIST (TWO)"/>
             <img className="top-image-3" src={topImage3} alt="HI WAIST (THREE)"/>

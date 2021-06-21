@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 
 p,
@@ -39,7 +39,7 @@ span {
 
 .top-image-1 {
   cursor:zoom-in;
-  display: none;
+  /* display: none; */
 }
 
 .top-description,
