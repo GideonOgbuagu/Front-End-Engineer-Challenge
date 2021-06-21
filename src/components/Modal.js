@@ -12,7 +12,11 @@ function Modal({ showModal, setShowModal }) {
   return (
     <div>
       {showModal && (
-        <div className="modal-container" onClick={e => setShowModal(false)}>
+        <div className="modal-container" onClick={e => 
+        { setShowModal(false)
+          // console.log(e.target.offsetTop, "TARGET HERE")
+        }}
+        >
           <span className="close-btn" onClick={e => setShowModal(false)}>X</span>
           <div className="image-wrapper">
             <img src={topImage1} className="image" alt="FIRST" />

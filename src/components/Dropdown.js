@@ -20,7 +20,8 @@ const sizes = ["XS", "S", "M", "L", "XL", "XXL"];
           <div className="size-item" onClick={(e) => 
           { setSelected(size)
             setShow(false)
-          }}>
+          }}
+          >
           <p>{size}</p>
         </div>
        ))}
