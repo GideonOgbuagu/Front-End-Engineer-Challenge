@@ -1,0 +1,21 @@
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+ul {
+  display: flex;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  min-width: 40vw;
+  max-width: 40vw;
+  padding: 0 15px 15px;
+
+}
