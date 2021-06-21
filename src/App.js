@@ -64,7 +64,7 @@ function App() {
             </div>
           </header>{" "}
           {/* header ends here */}
-          <div className="section-container">
+          <main className="main-container">
             <section className="first-section">
               {" "}
               {/* first section starts here */}
@@ -115,7 +115,7 @@ function App() {
               </div>
             </section>{" "}
             {/* third section ends here */}
-          </div>
+          </main>
       </div>
     </div>
   );

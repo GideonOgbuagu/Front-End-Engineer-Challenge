@@ -110,7 +110,7 @@ div.features-wrapper ~ div + p {
 /* Sections Container */
 
 /* First & Second Section styles */
-.section-container {
+.main-container {
   width: 87%;
   margin: 0 auto;
 }
