@@ -22,7 +22,6 @@ function Modal(props) {
             <img src={topImage5} className="image" alt="FIRST"/>
             <img src={topImage6} className="image" alt="FIRST"/>
       </div>
-     
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Colors from "./components/Colors";
 import Dropdown from "../src/components/Dropdown";
 import Modal from "./components/Modal"
 import "./App.css";
@@ -17,13 +18,9 @@ import sectnThreeImage2 from "./assets/bottom-section-images/sectionthree-img-2.
 
 function App() {
   const [selected, setSelected] = useState("");
-  const [black, setBlack] = useState(true);
-  const [beige, setBeige] = useState(false);
-  const [color, setColor] = useState({
-    black: true,
-    beige: false,
-  });
+  const [showModal, setShowModal] = useState(false)
   const [quantity, setQuantity] = useState(1);
+
 
   const increment = () => {
     setQuantity(quantity + 1);
@@ -57,28 +54,7 @@ function App() {
               <div className="add-to-cart-wrapper">
                 <p>$35.00</p>
                 <div className="features-wrapper">
-                  <div className="color-wrapper">
-                    {/* Color toggle functionality */}
-                    <span>color</span>
-                    <span
-                      onClick={(e) => {
-                        setBlack(true);
-                        setBeige(false);
-                      }}
-                      className={black ? "check" : null}
-                    >
-                      black
-                    </span>
-                    <span
-                      onClick={() => {
-                        setBeige(true);
-                        setBlack(false);
-                      }}
-                      className={beige ? "check" : null}
-                    >
-                      beige
-                    </span>
-                  </div>
+                  <Colors />
                   {/* quantity increment and decrement functionality */}
                   <div className="quantity-wrapper">
                     <span onClick={decrement}>-</span>

@@ -1,0 +1,39 @@
+/* COLOR STYLES  */
+
+.color-wrapper {
+  width: 100%;
+  display: flex;
+}
+.color-wrapper span {
+  width: 33.3rem;
+  border-right: 1px solid black;
+  color: black;
+  text-align: left;
+  padding: 0 6%;
+}
+
+.color-wrapper span:nth-child(2) {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.color-wrapper span:nth-child(3) {
+  border-right: 1px solid white;
+  color: black;
+  background-color: #f2d9a6;
+  cursor: pointer;
+}
+
+
+
+.check:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\2713";
+  display: inline-block;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}
