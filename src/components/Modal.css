@@ -1,0 +1,38 @@
+.modal-container {
+  width: 100%;
+  max-height: 100%;
+  background-color: #f7f7f7;
+  padding-top: 40px;
+  cursor: zoom-out;
+  
+}
+
+.image-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.close-btn {
+  text-align: right;
+  font-size: 2.5rem;
+  color: gray;
+  height: 10vh;
+  font-weight: 100;
+  position: absolute;
+  top: 20px;
+  right: 3%;
+  padding: 1%;
+  padding-bottom: 1%;
+
+  cursor: pointer;
+
+  /* border: 1px solid gray; */
+}
+/* .image {
+  margin-bottom: 5px;
+} */

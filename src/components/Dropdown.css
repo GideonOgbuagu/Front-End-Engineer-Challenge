@@ -27,14 +27,14 @@
   background-color: white;
   position: relative;
   z-index: 5;
-  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  /* box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06); */
 
 }
 
 .size-item {
   width: 100vh;
   border: 1px solid rgb(75, 75, 75);
-  height: 29px;
+  height: 30px;
   background-color: #f7f7f7;
   color: black;
   box-sizing: border-box;
@@ -45,7 +45,8 @@
 
 .size-item:hover{
   background-color: #f2d9a6;
-  /* background-color: gray; */
+  /* background-color: black; */
+  color: white;
   color: black;
 }
 

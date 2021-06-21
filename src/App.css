@@ -10,7 +10,7 @@ p,
 span {
   font-size: 96%;
 }
-.container {
+.App {
   width: 100%;
 }
 
@@ -53,6 +53,10 @@ span {
   margin-bottom: 20px;
   line-height: 1.6rem;
 }
+
+.top-image-1 {
+  cursor:zoom-in;
+}
 /* ADD TO CART STYLES */
 
 .add-to-cart-wrapper {
@@ -83,7 +87,7 @@ div.features-wrapper ~ div {
   font-weight: bold;
   color: white;
   background-color: black;
-  /* revert back later */
+  cursor: pointer;
  
 }
 
@@ -205,7 +209,7 @@ div.features-wrapper ~ div + p {
 }
 
 .card-img-descrip p:nth-child(2) {
-  font-size: 60%;
+  font-size: 65%;
 }
 
 .section1-card2 {
