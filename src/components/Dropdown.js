@@ -16,8 +16,8 @@ const sizes = ["XS", "S", "M", "L", "XL", "XXL"];
       </div>
       {show && (
       <div className="dropdown-content" >
-       {sizes.map(size => (
-          <div className="size-item" onClick={(e) => 
+       {sizes.map((size, i) => (
+          <div className="size-item" index ={i} onClick={(e) => 
           { setSelected(size)
             setShow(false)
           }}
