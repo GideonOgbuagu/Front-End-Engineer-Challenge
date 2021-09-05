@@ -38,7 +38,7 @@ function App() {
           <div className="header-wrapper">
             <div className="text-image">
               <div className="top-description">
-                <p>HI - WAIST</p>
+                <p>Hi -Waist</p>
                 <p>Heavy days. Holds up to 2 tampon's worth</p>
                 <p>The phrase "treat yo'self" reaches new belly-button brushing heights with the Hi-Waist, and it's here just in time for cutting season.</p>
               </div>

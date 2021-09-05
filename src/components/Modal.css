@@ -8,7 +8,7 @@
   /* display: none; */
   z-index: 100;
   overflow: hidden;
-  transition: all 0.2s;
+  transition: all 7s;
   /* border: 1px solid grey;  */ 
 }
 
@@ -36,6 +36,7 @@ img {
   padding: -1%;
   padding-bottom: 1%;
   cursor: pointer;
+  transition: all 7s;
   /* border: 1px solid gray; */
 }
 /* .image {
